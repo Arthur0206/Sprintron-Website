@@ -35,3 +35,6 @@
             </ul> 
         </div>
     </div>
+    
+    <div style="height:58px"> <!-- add a bottom padding -->
+    </div>

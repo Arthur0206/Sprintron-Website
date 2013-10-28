@@ -23,11 +23,12 @@ img {
     //position: relative;
     margin-left: auto;
     margin-right: auto;
-    //margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 80px;
     width: 1020px;
     //height: 500px;
     overflow: hidden;
+//    background-color: rgb(238, 242, 234);
 }
 #search_field {
     width: 300px;
@@ -67,10 +68,10 @@ img {
     //box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.33);
     background: none repeat scroll 0% 0% rgb(255, 255, 255);
     width: 236px;
-    margin: 10px 8px 10px 8px;
+    margin: 0px 8px 10px 8px;
 }
 .entry_content_wrapper {
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 6px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33);
     cursor: pointer;
 }
@@ -79,7 +80,8 @@ img {
 }
 .entry_title_wrapper {
     font-size: 20px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    //background-color: rgb(244, 244, 244);
 }
 .entry_description_wrapper {
 
@@ -210,9 +212,15 @@ img {
 }
 #menubar_wrapper {
     //background: none repeat scroll 0% 0% rgb(241, 241, 241);
-    border-bottom: 1px solid rgb(232, 232, 232);
+  //border-bottom: 1px solid rgb(232, 232, 232);
     height: 58px;
-   // background-color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1999;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
 }
 #ad {
     background-image: url("../Pics/circuit-board-new.jpg");
@@ -271,6 +279,7 @@ body {
     min-width: 960px;
     color: rgb(51, 51, 51);
     font-family: "Helvetica Neue","Hiragino Kaku Gothic Pro",arial,sans-serif;
+    //background-color: rgb(244, 244, 244);
 }
 #menubar {
     //width: 1300px;
@@ -304,7 +313,7 @@ ul {
         font-family: Arial Black; //inherit;
 	text-align: center;
         line-height: 36px;
-        color: rgb(227,38,46); //#d13f20; //#777777; // #0481C4
+        color: rgb(122,122,122); //rgb(227,38,46); //#d13f20; //#777777; // #0481C4
 	font-size: 33px;
 	padding-bottom: 7px;
 	display: block;

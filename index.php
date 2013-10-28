@@ -19,12 +19,13 @@
 
                 $('.entry_content_wrapper').hover(
                 function() {
+                    $(this).css('box-shadow','1px 1px 5px 3px rgba(0, 0, 0, 0.33)');
                     //$(this).find('.entry_image').css('opacity', '0.6');
                     //$(this).css('background-color','#f8f8f8');
                     $(this).find('.entry_description').css('color', '#444444');
                 }, function() {
                     //$(this).find('.entry_image').css('opacity', '1.0');
-                    //
+                    $(this).css('box-shadow','1px 1px 3px 1px rgba(0, 0, 0, 0.33)');
                     $(this).css('background-color','#ffffff');
                     $(this).find('.entry_description').css('color', '#777777');
                 }); // end hover
@@ -39,8 +40,8 @@
     <div id="wrapper">
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
-                <img src="./Pics/circuit-board-crop.jpg">
                 <img src="./Pics/flying-tiger-crop.jpg">
+                <img src="./Pics/circuit-board-crop.jpg">
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@
 
         <div id="main_container">
             <div style="overflow:hidden">
-                <img id="product_intro_big_pic" src="./Pics/product_intro_big_pic.jpg" height=400px width=1020px  style="margin-bottom:20px"></img>
+                <img id="product_intro_big_pic" src="./Pics/product_intro_big_pic2.jpg" height=400px width=1020px  style="margin-bottom:20px"></img>
             </div>
             
             <h4 class="paragraph_title">1. 藍牙模組</h4>
