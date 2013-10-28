@@ -24,7 +24,7 @@
                     <a href='./contact_us.php'>聯絡我們</a>
                 </li>
                 <li>
-                    <a href='./technical_support.php'>技術支援</a>
+                    <a href='./news.php'>最新消息</a>
                 </li>
                 <li>
                     <a href='./product_intro.php'>產品介紹</a>

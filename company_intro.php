@@ -20,11 +20,12 @@
     	?>
 
         <div id="main_container">
-            <div style="height: 30px">
+            <div style="overflow:hidden">
+                <img id="company_intro_big_pic" src="./Pics/company-intro.jpg" height=400px width=1020px style="margin-bottom:20px"></img>
             </div>
             <h4>公司簡介</h4>
             <div>
-            <img src="./Pics/company-intro.jpg" style="float:right;padding-left:20px" height="180px" width="240px">
+        
             <p> 腾讯公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一。成立十年多以来，腾讯一直秉承“一切以用户价值为依归”的经营理念，始终处于稳健发展的状态。2004年6月16日，腾讯公司在香港联交所主板公开上市（股票代号700）。腾讯公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一。成立十年多以来，腾讯一直秉承“一切以用户价值为依归”的经营理念，始终处于稳健发展的状态。2004年6月16日，腾讯公司在香港联交所主板公开上市（股票代号700）。
             </p>            
             </div>

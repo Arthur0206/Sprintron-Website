@@ -85,9 +85,9 @@
             
             <div class="entry_wrapper" style="top: 70px; left: 503px;">
                 <div class="entry_title_wrapper unselectable">
-                    技術支援
+                    最新消息
                 </div> 
-                <a href="./technical_support.php">
+                <a href="./news.php">
                 <div class="entry_content_wrapper" style="height: 300px">
                 <div class="entry_image_wrapper">
                     <img class="entry_image" src="./Pics/technical-support.jpg">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="entry_description_wrapper">
                     <p class="entry_description">
-                        技術支援 技術支援技術支援技術支援技術支援 技術支援技術支援 技術支援技術支援 技術支援技術支援技術支援 
+                        最新消息最新消息最新消息最新消息最新消息最新消息最新消息最新消息最新消息最新消息最新消息最新
                     </p>
                 </div>
                 </div>

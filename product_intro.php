@@ -20,9 +20,10 @@
     	?>
 
         <div id="main_container">
-            <div style="height: 30px">
+            <div style="overflow:hidden">
+                <img id="product_intro_big_pic" src="./Pics/product_intro_big_pic.jpg" height=400px width=1020px  style="margin-bottom:20px"></img>
             </div>
-
+            
             <h4 class="paragraph_title">1. 藍牙模組</h4>
             <div>
             <img class="product_img" src="./Pics/bt_module.jpg" height="160px" width="240px">
