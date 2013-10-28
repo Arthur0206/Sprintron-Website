@@ -1,0 +1,18 @@
+1. 現在的首頁是在比賽中的樣子, 比賽前的話要這樣: 
+
+Incoming: 2014 Winter Contest  [Join Contest]
+
+Before the contest start, check out the past vedios!    [Contest: All Classes]  [Area: Global]  [Sort By: Ranking]
+[video] [video] [video] [video] [video]
+[video] [video] [video] [video] [video]
+
+2. Search Bar是很簡單的keyword收尋, 讓用戶可以快速收尋,不能指定class, area, ...
+Browse Video會跑出一個advanced search bar可以做,也可以不用keyword
+
+3. Search或browse後 當然頁面上繪有filter和sort by button.
+
+4. feed back 黏在視窗右下角
+
+5. Rules在報名的時候講（menubar上不能太多東西 不然browse就不顯眼了）
+
+Test

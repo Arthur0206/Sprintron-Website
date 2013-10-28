@@ -1,0 +1,358 @@
+.unselectable {
+    /*
+        Modify By Me	       Modify By Me	       Modify By Me	       Modify By Me
+    */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+}
+#search {
+    display: inline;
+}
+#main_container {
+    //position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    width: 1020px;
+    //height: 500px;
+    overflow: hidden;
+}
+#search_field {
+    width: 300px;
+    height: 28px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07) inset;
+    background: none repeat scroll 0% 0% rgb(250, 249, 247);
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(113, 113, 113);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 4px;
+    padding: 6px 30px 6px 9px;
+    z-index: 1;
+    border-radius: 3px 3px 3px 3px;
+}
+#search_button {
+    background-size: 100%;
+    cursor: pointer;
+    display: inline;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    top: -4px;
+    left: -41px;
+    //color: transparent;
+    border: medium none;
+    //position: relative;
+    background-image: url("../Pics/search.png");
+}
+#search_wrapper {
+    margin: 5px 0px 5px 0px;
+    float: right;
+}
+.entry_wrapper {
+    //position: absolute;
+    float: left;
+    //box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.33);
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    width: 236px;
+    margin: 8px;
+}
+.entry_content_wrapper {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+}
+.entry_image_wrapper {
+
+}
+.entry_title_wrapper {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.entry_description_wrapper {
+
+}
+.entry_image {
+    height: 170px;
+    width: 236px;
+}
+.entry_description {
+    font-size: 14px;
+    padding: 14px 18px;
+    margin: 0px;
+    color: #777777;
+    line-height: 17px;
+    font-family: 'Helvetica Neue','Hiragino Kaku Gothic Pro',arial,sans-serif;
+}
+.button {
+    cursor: pointer;
+    float: left;
+    border: 1px solid rgb(204, 204, 204);
+    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+    background: linear-gradient(rgb(255, 255, 255), rgb(242, 242, 242)) repeat scroll 0px 0px rgb(255, 255, 255);
+}
+.tag_selected {
+    font-weight: bold;
+    color: #FFFFFF;
+    //background-color: #EEC000;
+    background-color: rgb(227, 38, 46);
+    //border: 1px solid #EEC000;
+    border: 1px solid rgb(227, 38, 46);
+    cursor: pointer;
+    float: right;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-left: 12px;
+    font-size: 20px;
+    border-radius: 3px 3px 3px 3px;
+    line-height: 52px;
+}
+.tag {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #CCCCCC;
+    cursor: pointer;
+    float: right;
+    border: 1px solid rgb(204, 204, 204);
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-left: 6px;
+    font-size: 20px;
+    border-radius: 3px 3px 3px 3px;
+    line-height: 52px;
+}
+.button_label {
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+.button_selected {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 16px;
+    font-size: 20px;
+    line-height: 50px;
+}
+#contest_filter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 1250px;
+}
+#current_contest {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 33px;
+    width: 1250px;
+}
+#title {
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+    font-family: arial,sans-serif;
+    display: inline-block;
+}
+#rules {
+    //text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgb(120, 120, 120);
+    //color: rgb(39, 147, 230);
+}
+#count {
+    float: right;
+    padding: 2px 8px;
+    line-height: 34px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgb(250, 250, 250);
+    margin-right: 20px;
+    font-size: 14px;
+    color: rgb(81, 81, 81);
+    font-family: arial,sans-serif;
+}
+#join {
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 24px 0px 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    line-height: 56px;
+    //border: 1px solid #b8860b;
+    //background-image: linear-gradient(rgb(227, 38, 46), rgb(171, 23, 30));
+    background-image: linear-gradient(#FFDF00, #B78727);
+}
+#menubar_wrapper {
+    //background: none repeat scroll 0% 0% rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(232, 232, 232);
+    height: 58px;
+   // background-color: #000000;
+}
+#ad {
+    background-image: url("../Pics/circuit-board-new.jpg");
+    height: 450px;
+    //background-repeat: no-repeat;
+    background-size: 1450px 450px;
+}
+#user_id {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+#user_img img {
+    float: right;
+    height: 51px;
+    width: 51px;
+    margin-top: 3px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-color: rgb(211, 211, 211);
+}
+a {
+    text-decoration: none;
+}
+#user_menu {
+    padding-right: 10px;
+}
+#user_menu > li {
+    float: right;
+    height: 58px;
+}
+#user_menu > li > a {
+    color: rgb(122, 122, 122);
+    display: block;
+    font: 16px/16px "Arial";
+    padding: 21px 20px 0px 20px;
+    height: 38px;
+}
+#user_menu > li > a:hover {
+    color: #FFFFFF; //#b81007;
+    background-color: rgb(227,38,46);//#b81007;
+    height: 38px;
+}
+#logo {
+    float: left;
+    padding-top: 1px;
+    //padding-left: 20px;
+}
+#logo > img {
+    width: 45px;
+    height: 55px;
+}
+body {
+    background: none repeat scroll 0% 0% transparent;
+    margin: 0px;
+    min-height: 700px;
+    min-width: 960px;
+    color: rgb(51, 51, 51);
+    font-family: "Helvetica Neue","Hiragino Kaku Gothic Pro",arial,sans-serif;
+}
+#menubar {
+    //width: 1300px;
+	padding: 0 0 0 0;
+	height: 58px;
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style:none outside none;
+}
+#menubar > ul{
+	margin: 0;
+}
+.tab {
+    margin-top: 1px;
+    height: 38px;
+}
+#site_menu > li > a {
+	display: block;
+	font: bold 16px/16px "Arial";
+	letter-spacing: 0.05em;
+	padding: 11px 6px 8px 6px;
+	overflow: hidden;
+}
+#site_menu > li {
+	float: left;
+}
+.tab_title {
+        font-family: Arial Black; //inherit;
+	text-align: center;
+        line-height: 36px;
+        color: rgb(227,38,46); //#d13f20; //#777777; // #0481C4
+	font-size: 33px;
+	padding-bottom: 7px;
+	display: block;
+	padding-right: 9px;
+}
+#news_wrapper {
+    float: left;
+    margin-top: 30px;
+}
+#news_title {
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+#news_hr {
+    margin-top: 22px;
+    background-color: #efefef;
+//  background: url(../Pics/hr.png) 0 0 repeat -x;
+    border-radius: 3px;
+    width: 900px;
+    height: 17px;
+    float: left;
+}
+#footer {
+    background-color: #eef2ea;
+    border-top: 1px solid #d0d5cb;
+    height: 130px;
+}
+#footer-contact {
+    width:90px; 
+    height: 30px;
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:24px;
+    padding: 12px 0 0 26px;
+    color: #FFFFFF;
+  //  font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(227, 38, 46);//#d13f20;
+    cursor: pointer;
+}
+#footer-copyright {
+    width:340px; 
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 65%;
+    padding: 10px 0 0 15px;
+}
+
+/******************************************** 公司介紹頁面 *******************************************/
+
+
+
+
