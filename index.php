@@ -28,6 +28,17 @@
                     $(this).css('background-color','#ffffff');
                     $(this).find('.entry_description').css('color', '#777777');
                 }); // end hover
+				
+				$("dialog-form").dialog({
+					autoOpen: false,
+					height: 300,
+					width: 350,
+					modal: true,
+					buttons: {
+						"Send Email": function() {
+						}
+					}
+				}); //end dialog
             }); // ready
         </script> 
     </head>
@@ -130,6 +141,16 @@
             </div>
             -->
         </div>
+		<div id="dialog-form" title="聯絡我們">
+		<form>
+		<fieldset>
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" />
+			<label for="email">E-mail</label>
+			<input type="text" name="email" id="email" />
+		</fieldset>
+		</form>
+		</div>
         <div id="footer">
             <div id="footer-copyright">
                 copyright (c) 2013 by Tiger Wing Technologies. All rights reserved.
