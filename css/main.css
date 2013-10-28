@@ -13,6 +13,9 @@
     -ms-user-select: none;
     user-select: none;
 }
+img {
+    border-width: 0;
+}
 #search {
     display: inline;
 }
@@ -20,7 +23,7 @@
     //position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    //margin-top: 10px;
     margin-bottom: 80px;
     width: 1020px;
     //height: 500px;
@@ -64,7 +67,7 @@
     //box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.33);
     background: none repeat scroll 0% 0% rgb(255, 255, 255);
     width: 236px;
-    margin: 8px;
+    margin: 10px 8px 10px 8px;
 }
 .entry_content_wrapper {
     border-radius: 5px 5px 5px 5px;
@@ -353,8 +356,15 @@ ul {
     text-align: center;
 }
 
-/******************************************** 公司介紹頁面 *******************************************/
-
+/******************************************** 產品介紹頁面 *******************************************/
+.product_img {
+    float:left;
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+.paragraph_title {
+    clear: left;
+}
 
 
 
